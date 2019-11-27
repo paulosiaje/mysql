@@ -1,0 +1,1 @@
+Select * from Employees where (select * from dept_emp where emp_no = '10003')
